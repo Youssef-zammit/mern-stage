@@ -3,9 +3,9 @@
 import { useState } from "react"
 import { useParams } from "react-router-dom"
 import { Heart, Star, Sparkles } from "lucide-react"
-import { Button } from "../components/ui/button"
-import { Badge } from "../components/ui/badge"
-import { Card, CardContent } from "../components/ui/card"
+import { Button } from "../component/ui/Button"
+import { Badge } from "../component/ui/badge"
+import { Card, CardContent } from "../component/ui/card"
 
 // Sample product data
 const products = [

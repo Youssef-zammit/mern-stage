@@ -1,9 +1,9 @@
 import { ShoppingCart } from "lucide-react"
 import { Badge } from "./ui/badge"
-import { Button } from "../ui/button"
+import { Button } from "./ui/Button"
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet"
-import { SugarRushSidebar } from "./SugarRushSidebar"
-import { MainNav } from "./MainNav"
+import { SugarCrushSidebar } from "./SugarCrushSidebar"
+import { MainNav } from "./Mainnavbar"
 import { UserAuthNav } from "./UserAuthNav"
 
 export default function Layout({ children }) {
@@ -18,7 +18,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="flex min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-yellow-50">
-      <SugarRushSidebar />
+      <SugarCrushSidebar />
 
       <div className="flex-1">
         {/* Header */}

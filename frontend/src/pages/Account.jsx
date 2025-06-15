@@ -2,12 +2,12 @@
 
 import { useState } from "react"
 import { Cake, Edit, Medal, ScrollText, ShoppingBag, Donut, Cookie } from "lucide-react"
-import { Button } from "../components/ui/Button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
-import { Input } from "../components/ui/input"
-import { Label } from "../components/ui/label"
-import { Separator } from "../components/ui/separator"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs"
+import { Button } from "../component/ui/Button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../component/ui/card"
+import { Input } from "../component/ui/input"
+import { Label } from "../component/ui/label"
+import { Separator } from "../component/ui/separator"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../component/ui/tabs"
 
 export default function Account() {
   const [user, setUser] = useState({

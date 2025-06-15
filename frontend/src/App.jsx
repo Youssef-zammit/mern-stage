@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { SidebarProvider } from "./components/ui/sidebar"
-import Layout from "./components/Layout"
-import Home from "../pages/Home"
+import { SidebarProvider } from "./component/ui/sidebar"
+import Layout from "./component/Layout"
+import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
-import Account from "../pages/Account"
+import Account from "./pages/Account"
 import "./App.css"
 
 function App() {
